@@ -29,11 +29,11 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-            <url>http://172.31.29.166:8081/repository/maven-snapshots/</url>
+            <url>http://172.31.31.118:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://172.31.29.166:8081/repository/maven-releases/</url>
+            <url>http://172.31.31.118:8081/repository/maven-releases/</url>
         </repository>
   </distributionManagement>
 
@@ -127,7 +127,7 @@
         </plugin>
 
         <plugin>
-          <artifactId>maven-project1-info-reports-plugin</artifactId>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>2.4</version>
         </plugin>
 
